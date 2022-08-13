@@ -9,19 +9,21 @@
     border: none;
     font-family: 'Nanum Gothic', sans-serif;
 }
+@media only screen and (max-width: 390px){
 body{
     background-color:#f1c27b;
+   
 }
 .cabecalho .menu{
     margin-bottom: 1vw;
     
     position: fixed;
-    left: 15vw;
+    left: 10vw;
  
  }
 .cabecalho .loja{
    margin-bottom: 1vw;
-   margin-left: 34vw;
+   margin-left: 36vw;
    position: fixed;
 
 }
@@ -40,7 +42,7 @@ body{
     margin-top: 10px;
     font-size: 30px;
     font-family: 'Yananeska Personal Use', sans-serif;
-    margin-left: 10vw;
+    margin-left: 6vw;
     font-weight: 100;
 }
 .cabecalho{
@@ -52,12 +54,12 @@ body{
 
 }
 header .background{
-    position: fixed;
+    position: absolute;
     background-color: whitesmoke;
     height: 6vh;
-    width: 80vw;
+    width: 88vw;
     top: 2vh;
-    margin-left: 10vw;
+    margin-left: 6vw;
     border-radius: 20px;
 }
 header img{
@@ -66,25 +68,54 @@ header img{
 }
 
 main .imagens img{
-    width: 80%;
-    height: 80%;
-    margin-left: 6vh;
-    margin-top: 8vh;
+    width: 70%;
+    height: 70%;
+    margin-left: 9vh;
+    margin-top: 6vh;
 }
 
 main div{
     position: absolute;
-    top: 70vh;
+    top: 67vh;
 }
 main .texto h2{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5vw;
+    margin-top: 0vh;
 }
-main .texto aside{
- margin-left: 25vh;
- font-size: 9vw;
- margin-bottom: 12vh;
- width: 200px;
- height: 200px;
- border: solid;
+.texto .passion{
+    position: absolute;
+    bottom: 1vw;
+    font-weight: 1000;
+    border: solid red;
+}
+aside{
+    position: absolute;
+ margin-left: 40vh;
+ bottom: 34vh;
+ font-size: 24px;
+ font-weight: 900;
+ width: 100px;
+ border: solid black;
+}
+
+main .ingredientes{
+    margin-top: 2vw;
+}
+main .ingredientes h3{
+    font-weight: 900;
+    margin-left: 5vw;
+}
+main .ingredientes p{
+    margin-left: 5vw;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+.ingredientes h4{
+    margin-left: 5vw;
+    font-weight: 900;
+    font-size: 17px;
+}
 }
